@@ -17,11 +17,6 @@
 
 """Simple terminal related routines."""
 
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-from __future__ import unicode_literals
-
 try:
   # Import fails on Windows machines.
   import fcntl
@@ -35,8 +30,6 @@ import re
 import struct
 import sys
 import time
-from builtins import object   # pylint: disable=redefined-builtin
-from builtins import str      # pylint: disable=redefined-builtin
 
 __version__ = '0.1.1'
 

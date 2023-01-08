@@ -18,7 +18,6 @@
 
 
 import re
-from builtins import object    # pylint: disable=redefined-builtin
 
 
 class CopyableRegexObject(object):
